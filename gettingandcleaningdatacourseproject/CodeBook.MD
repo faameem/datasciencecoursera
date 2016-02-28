@@ -25,4 +25,5 @@
 ## Output Data
 * From [data] data frame, create a second, independent tidy data set with the average of each variable for each activity and each subject using [dplyr] package group_by and summarise_each functions. Store this in [data.tidy] data frame.
 * Export the final tidy data set to a file [data-tidy.txt] in the home directory [rpwd].
+* In the output file [data-tidy.txt], column [subject] refers to the participant id, column [activity] refers to activity description, and the rest of the column names refer to the average of mean/std deviation measurements, the details of which can be obtained from [Features.txt] file.
  
