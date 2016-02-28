@@ -24,7 +24,7 @@ The script performs the following steps:
 * Apply variable names to the merged data using features data.
 * Remove the columns with duplicate names.
 * Extract the mean and standard deviation columns
-* Apply descriptive activity names to the activities in the data set.
+* Apply descriptive activity names to the activities in the data set using data in [activity_labels.txt]
 * Remove non-alphanumeric characters from the variable names [(,),-]
 * Make the variable names lower case.
 * From the data set, create a second, independent tidy data set with the average of each variable for each activity and each subject using [dplyr] package group_by and summarise_each functions.
